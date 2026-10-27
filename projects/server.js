@@ -7,6 +7,7 @@ const app = express();
 app.get("/", (req, res) => {
     res.send("ajithe,anne njan thattum");
 });
+
 app.use("/api/users",userRoutes);
 
 app.listen(3000, () => {
